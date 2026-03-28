@@ -1,2 +1,5 @@
-// AI script generation (GLM-5 integration)
-export {};
+import type { ScriptRequest, ScriptResponse, ScriptSegment } from '../types';
+import { generateScript, generateScriptStream } from './generateScript';
+
+export type { ScriptRequest, ScriptResponse, ScriptSegment };
+export { generateScript, generateScriptStream };
