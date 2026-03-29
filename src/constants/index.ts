@@ -6,6 +6,9 @@ export const API_CONFIG = {
   model: 'glm-5-turbo',
 } as const;
 
+/** Default LRC line duration in seconds */
+export const DEFAULT_LRC_LINE_DURATION = 3;
+
 /** Available script styles with display names */
 export const SCRIPT_STYLES = [
   { id: 'funny' as const, label: '面白い', emoji: '😂', description: 'ツッコミ・オチあり' },
