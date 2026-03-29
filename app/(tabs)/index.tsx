@@ -53,10 +53,7 @@ export default function CreateScreen() {
           onComplete: (response: ScriptResponse) => {
             setIsGenerating(false);
             // Navigate to editor with generated script
-            router.push({
-              pathname: '/editor',
-              params: { scriptId: response.id },
-            });
+            router.push('/editor');
           },
           onError: (error: Error) => {
             setIsGenerating(false);

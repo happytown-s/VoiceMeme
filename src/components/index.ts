@@ -1,2 +1,2 @@
 // Reusable UI components
-export {};
+export { StepIndicator, SectionHeader, ActionButton } from './ui';
